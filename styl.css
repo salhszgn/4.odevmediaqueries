@@ -1,0 +1,123 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 565px) {
+    .container {
+        width: 550px;
+        margin: 0 auto;
+      
+    }
+ 
+
+}
+
+@media screen and (min-width: 989px) {
+    .container {
+        width: 878px;
+        margin: 0 auto;
+    }
+    /*
+    .container-fluid .slide-caption{
+        width: 200px;
+        height: 40px;
+        display: block;
+    }
+    */
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1050px;
+        margin: 0 auto;
+        
+    }
+  
+
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1400px;
+        margin: 0 auto;
+    }
+
+  
+
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+nav.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+nav.container a {
+    text-decoration: none;
+}
+
+nav.container>div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+nav.container>div:nth-child(1)>img {
+    width: 125px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slide-caption {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    width: 400px;
+   height: 80px;
+}
+
+.container-fluid a{
+    position: absolute;
+    text-decoration: none;
+  background-color: #0067b8;
+   font-size: medium;
+   width: 90px;
+   height: 40px;
+   border-radius: 3%;
+   color: white;
+   cursor: pointer;
+   margin-top: 7px;
+  
+}
+
+#kisi{
+    position: absolute;
+    text-decoration: none;
+  background-color: transparent;
+   font-size: medium;
+   width: 200px;
+   height: 30px;
+   border-radius: 3%;
+   color:black;
+   cursor: pointer;
+   margin-left: 130px;
+  
+}
